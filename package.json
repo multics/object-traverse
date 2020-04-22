@@ -1,0 +1,12 @@
+{
+  "name": "traverse",
+  "version": "1.0.0",
+  "description": "traverse an object, gives its structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=debug node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
