@@ -5,8 +5,6 @@ function debug(info) {
   return () => { }
 }
 
-const isArray = Array.isArray
-
 function isValue(obj) {
   return ['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error', 'Symbol', 'Map', 'WeakMap', 'Set', 'WeakSet', 'Array'].some(name => toString.call(obj) === `[object ${name}]` )
 }
